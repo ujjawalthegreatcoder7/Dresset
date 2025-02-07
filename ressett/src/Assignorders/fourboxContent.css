@@ -1,0 +1,24 @@
+.content{
+    /* background-color: rgb(255, 236, 202); */
+    /* height : 15rem ; */
+    /* border-radius: 1rem; */
+    width : 35rem ;
+    /* padding: 2rem; */
+    /* border: 2px solid orange; */
+    display: flex;
+    justify-content: space-between;
+}
+.content1{
+        background-color: rgb(255, 236, 202);
+    border-radius: 1rem;
+    width : 100% ;
+    padding: 2rem;
+    border: 2px solid orange;
+    display: flex;
+    justify-content:center;
+    gap : 10%
+}
+.drop{
+    margin-top: 2rem;
+    display: flex;
+}

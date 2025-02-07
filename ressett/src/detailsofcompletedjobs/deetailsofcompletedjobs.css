@@ -1,0 +1,21 @@
+.deliveryDetails{
+    font-family: 'Inter', sans-serif;
+
+}
+.deliveryboy{
+    font-family: 'Inter', sans-serif;
+    padding : 1rem
+}
+.det{
+ box-shadow: 1px 1px 1px orange;
+ border-radius: 1rem;
+ padding : 1rem ;
+}
+.back{
+    background-color: white ;
+    border: 1px solid orange;
+}
+.back:hover {
+   background-color: orange;
+   border: 1px solid black;  
+}

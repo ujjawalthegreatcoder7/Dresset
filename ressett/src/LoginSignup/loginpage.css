@@ -1,0 +1,47 @@
+.logoo {
+    filter : drop-shadow(1px 1px 10px  orange) ;
+    /* box-shadow: 1px 1px 20px orange; */
+}
+.logoo:hover{
+   animation : upAndDown 0.5s 0.5s ease-in-out infinite;
+}
+
+@keyframes upAndDown {
+    0% {
+      transform: translateY(0); /* Start at original position */
+    }
+    50% {
+      transform: translateY(-2px); /* Move up by 20px */
+    }
+    100% {
+      transform: translateY(0); /* Return to the original position */
+    }
+  }
+
+  .form-control:focus {
+    border-color: orange; /* Orange border color */
+    box-shadow: 0 0 8px rgba(255, 165, 0, 0.8); /* Orange glow */
+  }
+
+  .form{
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+    text-align: center ;
+   font-size: 1.2rem;
+  }
+
+.label{
+/* display: inline ; */
+}
+.input {
+    width : 50rem ;
+}
+@media (max-width: 400px) {
+    .input {
+        /* padding : 2rem ; */
+      /* background-color: red;  */
+     width : 50rem ;
+    }
+  }
+  
