@@ -1,6 +1,7 @@
 .logoo {
     filter : drop-shadow(1px 1px 10px  orange) ;
     /* box-shadow: 1px 1px 20px orange; */
+    border-radius: 1rem;
 }
 .logoo:hover{
    animation : upAndDown 0.5s 0.5s ease-in-out infinite;
@@ -22,9 +23,6 @@
     border-color: orange; /* Orange border color */
     box-shadow: 0 0 8px rgba(255, 165, 0, 0.8); /* Orange glow */
   }
-  .form-control{
-    width : 40rem ;
-  }
 
   .form{
     display: flex ;
@@ -38,19 +36,30 @@
 /* display: inline ; */
 }
 .input {
-    width : 20rem ;
+    width : 4440rem ;
 }
-@media (max-width: 400px) {
+@media (min-width: 700px) {
     .input {
         /* padding : 2rem ; */
       /* background-color: red;  */
-     width : 50rem ;
+     width : 23090rem ;
     }
   }
   
-  @media (min-width: 1200px) {  /* Full screen mode */
+  .form-control{
+    /* width : 50rem ; */
+  }
+  @media (min-width: 1000px) {
+    .input {
+background-color: red;
+    }
+
+    .textoutline{
+      width : 50rem ;
+    }
+
     .logoo {
-      height: 3rem !important;
-      width: auto !important;
+      height: 5rem !important ;
+      width : 17rem !important ;
     }
   }
