@@ -121,14 +121,20 @@ function Login() {
           className="logo mt-5"
           style={{ display: "flex", justifyContent: "center", alignContent: "center" }}
         >
-          <img src={ressetlogo} className="logoo" style={{ width: "40%" }} alt="Logo" />
+          {/* <img src={ressetlogo} className="logoo"  style={{ width: "40%" }} alt="Logo" /> */}
+          <img 
+    src={ressetlogo} 
+    className="logoo w-100 h-auto" 
+    style={{ maxWidth: "40%", height: "auto" }} 
+    alt="Logo" 
+  />
         </div>
 
-        <div style={{ padding: "4rem" }}>
+        <div style={{ padding: "4rem"}} >
+        <div   style={{ display:"grid" ,justifyContent:"center" }}  >
           <label htmlFor="" className="form-label label">
             Enter your I.D
           </label>
-
           <input
               type="email"
               // required
@@ -138,7 +144,9 @@ function Login() {
               // value={mobile}
               // onChange={(e) => setEmail(e.target.value)}
             />
+</div>
 
+<div   style={{ display:"grid" ,justifyContent:"center" }}  >
           <label htmlFor="password" className="form-label label mt-5">
             Enter your Password
           </label>
@@ -150,11 +158,12 @@ function Login() {
               placeholder="Admin@7777"
               // value={mobile}
               // onChange={(e) => setEmail(e.target.value)}
-            />          
+            />      
+            </div>    
           {error && <p style={{ color: "red" }}>{error}</p>}
 
-          <div className="d-grid mt-5 gap-2 col-6 mx-auto">
-            <button className="btn" style={{ backgroundColor: "orange" }} type="submit">
+          <div className="d-grid mt-5 gap-2 col-6 mx-auto"    style={{ display:"grid" ,justifyContent:"center" }}   >
+            <button className="btn" style={{ backgroundColor: "orange", width:"10rem" }} type="submit">
               Login
             </button>
           </div>
