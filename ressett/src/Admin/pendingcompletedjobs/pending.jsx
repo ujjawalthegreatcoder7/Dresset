@@ -45,11 +45,11 @@ export default function Pending() {
               </CardContent>
               <div
                 style={{
-                  display: "flex",
-                  justifyContent: "space-between",
-                  padding: "0.5rem 1rem",
-                  display:"flex",
-                  justifyContent:"center",
+                  // display: "flex",
+                  // justifyContent: "space-between",
+                  // padding: "0.5rem 1rem",
+                  // display:"flex",
+                  // justifyContent:"center",
                 }}
               >
                 <Button 
