@@ -48,7 +48,7 @@
     }
   }
   
-  @media (min-width: 100px) {  /* Full screen mode */
+  @media (min-width: 1200px) {  /* Full screen mode */
     .logoo {
       height: 3rem !important;
       width: auto !important;
